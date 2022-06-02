@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Hospital System</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="timeframes">
+        <item>Select Time You Are Available</item>
+        <item>7-9 AM</item>
+        <item>9-11 AM</item>
+        <item>11-1 PM</item>
+        <item>2-4 PM</item>
+        <item>4-6 PM</item>
+    </string-array>
+
+    <string-array name="departments">
+        <item>Select Department Here</item>
+        <item>Dentistry</item>
+        <item>Surgery</item>
+    </string-array>
+
+    <string-array name="specialists">
+        <item>Select Specialist Here</item>
+        <item>General</item>
+        <item>Periodontist</item>
+    </string-array>
+</resources>

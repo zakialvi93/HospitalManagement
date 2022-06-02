@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.projectMad.HospitalManagement">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.AboutAppActivity"></activity>
+        <activity android:name=".Activity.AdminLoginActivity"></activity>
+        <activity android:name=".Activity.AllAppUsersActivity"></activity>
+        <activity android:name=".Activity.AssignDoctorToPatientActivity"></activity>
+        <activity android:name=".Activity.DashboardActivity"></activity>
+        <activity android:name=".Activity.DoctorRegistrationActivity"></activity>
+        <activity android:name=".Activity.DoctorsActivity"></activity>
+        <activity android:name=".Activity.ForgotPasswordActivity"></activity>
+        <activity android:name=".Activity.LoginActivity"></activity>
+        <activity android:name=".Activity.MainActivity"></activity>
+        <activity android:name=".Activity.MakeAppointmentActivity"></activity>
+        <activity android:name=".Activity.NotificationsActivity"></activity>
+        <activity android:name=".Activity.PatientRegistrationActivity"></activity>
+        <activity android:name=".Activity.PatientsActivity"></activity>
+        <activity android:name=".Activity.ProfileActivity"></activity>
+        <activity android:name=".Activity.SelectRegistrationActivity"></activity>
+        <activity android:name=".Activity.UserDetailsActivity"></activity>
+
+        <activity android:name=".Activity.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
