@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Activity.ProfileActivity">
+    tools:context=".Activity.ProfileActivity"
+    android:background="@drawable/backdrop">
 
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"

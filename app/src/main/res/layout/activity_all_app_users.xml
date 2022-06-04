@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Activity.AllAppUsersActivity">
+    tools:context=".Activity.AllAppUsersActivity"
+    android:background="@drawable/backdrop">
+
 
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"

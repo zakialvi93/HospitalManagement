@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_vertical"
-    tools:context=".Activity.SplashScreenActivity">
+    tools:context=".Activity.SplashScreenActivity"
+    android:background="@drawable/backdrop">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center_vertical"
-        android:background="#ffffff"
         android:orientation="vertical">
 
         <ImageView
@@ -37,7 +37,7 @@
 
         <TextView
             android:id="@+id/slogan"
-            android:text="Welcome to this application"
+            android:text="(Mobile Application Development Project)"
             android:textColor="#000"
             android:textSize="20sp"
             android:gravity="center"
@@ -46,7 +46,94 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
+
+
+        <TableLayout android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_gravity="center"
+                android:gravity="center">
+                <TextView android:text="Group Mmebers\n"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:layout_marginStart="20dp">
+
+                <TextView android:text="1. Muhammad Umer (15484)\n"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:layout_marginStart="28dp">
+                <TextView android:text="2. Muhammad Zaki Alvi (15713)\n"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:layout_marginStart="12dp">
+                <TextView android:text="3. Mustafa Asghar (14527)\n"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:layout_marginStart="18dp">
+                <TextView android:text="4. Shahrukh Hameid (12856)\n"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:layout_marginStart="5dp">
+                <TextView android:text="5. Syed Talal Ali (16641)\n"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+
+
+
+
+        </TableLayout>
+
     </LinearLayout>
+
+
 
 
 </LinearLayout>
