@@ -3,8 +3,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backdrop"
-    android:padding="10dp">
+    android:background="@drawable/backgr">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/tint"
+        android:padding="10dp">
+
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:src="@drawable/profile_image"
@@ -24,7 +32,7 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="#000"
-            android:text="wily macharia"
+            android:text="User Name"
             android:id="@+id/notification_username"/>
 
         <TextView
@@ -43,5 +51,5 @@
 
     </LinearLayout>
 
-
+    </LinearLayout>
 </RelativeLayout>

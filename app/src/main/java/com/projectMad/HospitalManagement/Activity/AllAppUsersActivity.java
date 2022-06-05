@@ -96,7 +96,7 @@ public class AllAppUsersActivity extends AppCompatActivity {
                 holder.itemView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        final String userid = getRef(position).getKey();
+                        final String userid = getRef(holder.getAdapterPosition()).getKey();
 
                         DatabaseReference ref = FirebaseDatabase.getInstance().getReference("users").child(userid);
                         ref.addValueEventListener(new ValueEventListener() {

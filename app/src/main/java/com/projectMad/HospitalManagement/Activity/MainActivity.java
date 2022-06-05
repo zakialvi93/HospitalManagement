@@ -372,7 +372,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public void onBackPressed() {
 
         new AlertDialog.Builder(this)
-                .setTitle("m-Doctor app")
+                .setTitle("Hospital Management System")
                 .setMessage("Are you sure you want to exit?")
                 .setCancelable(false)
                 .setPositiveButton("Yes", new DialogInterface.OnClickListener() {

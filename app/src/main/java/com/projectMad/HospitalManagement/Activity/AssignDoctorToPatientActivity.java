@@ -95,7 +95,7 @@ public class AssignDoctorToPatientActivity extends AppCompatActivity {
                 holder.itemView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        final String userid = getRef(position).getKey();
+                        final String userid = getRef(holder.getAdapterPosition()).getKey();
 
                         AlertDialog.Builder myDialog = new AlertDialog.Builder(AssignDoctorToPatientActivity.this);
                         LayoutInflater inflater = LayoutInflater.from(AssignDoctorToPatientActivity.this);

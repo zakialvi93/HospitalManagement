@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".Activity.AboutAppActivity"
-    android:background="@drawable/backdrop">
+    android:background="@drawable/backgr">
 
 
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/tint">
 
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
@@ -25,7 +31,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:textColor="#000"
-        android:text="I propose creating a hospital system that solves the current problems of congestion in hospitals. As the situation currently stands, patients have to queue in hospital corridays awaiting their turn to see a doctor.\n\n
+        android:padding="10dp"
+        android:text="We propose creating a hospital management system that solves the current problems of congestion in hospitals. As the situation currently stands, patients have to queue in hospital corridor awaiting their turn to see a doctor.\n\n
  This scenario is not only tiring, it also does not give any assurance that all patients will be attended to. Some patients might spend hours on those queues only to be requested to come back and re-live the whole torture all over again. Further-living patients are, on more occasions, forced to find temporary accommodation in hotel rooms. This correlatively becomes extremely expensive for such families considering they have to incur the costs of medication still. \n\n
 Furthermore, doctors and their receptionists feel overwhelmed by the lack of an efficient system that sets the scenery to order.
 This hospital system will be able to improve the hospital’s current means of operation by;\n\n
@@ -35,5 +42,5 @@ This hospital system will be able to improve the hospital’s current means of o
 "
         android:textStyle="bold"
         android:textSize="17sp"/>
-
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>

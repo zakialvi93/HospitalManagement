@@ -3,29 +3,30 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/activity_about_app.xml" value="0.25" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/activity_admin_login.xml" value="0.2" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/drawable/ic_sports.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/activity_about_app.xml" value="0.18" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/activity_admin_login.xml" value="0.22" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/activity_all_app_users.xml" value="0.21" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/activity_assign_doctor_to_patient.xml" value="0.21" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/activity_dashboard.xml" value="0.11231884057971014" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/activity_doctor_registration.xml" value="0.18" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/activity_dashboard.xml" value="0.18" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/activity_doctor_registration.xml" value="0.2" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/activity_doctors.xml" value="0.12817028985507245" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/activity_forgot_password.xml" value="0.12817028985507245" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/activity_login.xml" value="0.12817028985507245" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/activity_make_appointment.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/activity_notifications.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/activity_patient_registration.xml" value="0.12817028985507245" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/activity_patient_registration.xml" value="0.16" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/activity_patients.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/activity_profile.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/activity_select_registration.xml" value="0.12817028985507245" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/activity_profile.xml" value="0.22" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/activity_select_registration.xml" value="0.2" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/activity_user_details.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/all_users_display_layout.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/appointments_retrieved_layout.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/assigment_layout.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/header.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/notification_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/notification_item.xml" value="0.22" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/layout/users_display_layout.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/menu/main_menu.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HospitalManagement/app/src/main/res/menu/post_menu.xml" value="0.20416666666666666" />

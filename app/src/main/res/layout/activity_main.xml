@@ -7,14 +7,15 @@
     android:id="@+id/drawerLayout"
     android:fitsSystemWindows="true"
     tools:openDrawer="start"
-    android:background="@drawable/backdrop"
+    android:background="@drawable/backgr"
     tools:context=".Activity.MainActivity"
     >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@color/tint">
         <androidx.appcompat.widget.Toolbar
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"

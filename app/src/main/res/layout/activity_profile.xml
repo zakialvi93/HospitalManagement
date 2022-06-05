@@ -6,7 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".Activity.ProfileActivity"
-    android:background="@drawable/backdrop">
+    android:background="@drawable/backgr">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/tint">
 
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
@@ -21,7 +27,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:padding="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -198,5 +205,5 @@
         </LinearLayout>
 
     </ScrollView>
-
+    </LinearLayout>
 </LinearLayout>

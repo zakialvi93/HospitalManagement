@@ -1,5 +1,7 @@
 package com.projectMad.HospitalManagement.Activity;
 
+import static com.projectMad.HospitalManagement.R.layout.activity_doctor_registration;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -35,13 +37,13 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class DoctorRegistrationActivity extends AppCompatActivity {
 
     private TextInputEditText registerEmail, registerPassword, registerFullNames, registerIdNumber, registerPhoneNumber, registerEmployeeNumber;
-    private Button RegisterBtn, alreadyHaveAnAccount;
     private Spinner availabilitySpinner, departmentSpinner, specialistSpinner;
 
     private FirebaseAuth mAuth;
@@ -57,12 +59,12 @@ public class DoctorRegistrationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_doctor_registration);
 
-        alreadyHaveAnAccount = findViewById(R.id.registrationPageQuestion);
+        Button alreadyHaveAnAccount = findViewById(R.id.registrationPageQuestion);
         registerEmail = findViewById(R.id.registerEmail);
         registerPassword = findViewById(R.id.registerPassword);
         registerIdNumber = findViewById(R.id.registerIdNumber);
         registerPhoneNumber = findViewById(R.id.registerPhoneNumber);
-        RegisterBtn = findViewById(R.id.RegisterBtn);
+        Button registerBtn = findViewById(R.id.RegisterBtn);
         registerFullNames = findViewById(R.id.registerFullName);
         profile_image = findViewById(R.id.profile_image);
         registerEmployeeNumber = findViewById(R.id.registerEmployeeNumber);
@@ -92,15 +94,15 @@ public class DoctorRegistrationActivity extends AppCompatActivity {
             }
         });
 
-        RegisterBtn.setOnClickListener(new View.OnClickListener() {
+        registerBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final String email = registerEmail.getText().toString();
-                final  String password = registerPassword.getText().toString();
-                final String fullNames = registerFullNames.getText().toString();
-                final String idNumber = registerIdNumber.getText().toString();
-                final String phoneNumber = registerPhoneNumber.getText().toString();
-                final String employeeNumber = registerEmployeeNumber.getText().toString();
+                final String email = Objects.requireNonNull(registerEmail.getText()).toString();
+                final  String password = Objects.requireNonNull(registerPassword.getText()).toString();
+                final String fullNames = Objects.requireNonNull(registerFullNames.getText()).toString();
+                final String idNumber = Objects.requireNonNull(registerIdNumber.getText()).toString();
+                final String phoneNumber = Objects.requireNonNull(registerPhoneNumber.getText()).toString();
+                final String employeeNumber = Objects.requireNonNull(registerEmployeeNumber.getText()).toString();
                 final String availabilityTime  = availabilitySpinner.getSelectedItem().toString();
                 final String departmentSelected = departmentSpinner.getSelectedItem().toString();
                 final String specialistSelected = specialistSpinner.getSelectedItem().toString();
@@ -146,7 +148,7 @@ public class DoctorRegistrationActivity extends AppCompatActivity {
 
                 if (resultUri ==null){
                     Toast.makeText(DoctorRegistrationActivity.this, "Your profile Image is required!", Toast.LENGTH_SHORT).show();
-                    return;
+//                    return;
                 }
                 else {
                     loader.setMessage("Registration in progress...");

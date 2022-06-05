@@ -6,13 +6,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".Activity.SelectRegistrationActivity"
-    android:background="@drawable/backdrop">
+    android:background="@drawable/backgr">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:orientation="vertical">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/tint"
+        android:padding="10dp">
 
         <ImageView
             android:id="@+id/logo"
@@ -24,7 +25,7 @@
 
         <TextView
             android:id="@+id/title"
-            android:text="Hello there, welcome to hospital system application!"
+            android:text="Register Here"
             android:textColor="#000"
             android:textSize="25sp"
             android:textStyle="bold"

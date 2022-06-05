@@ -5,7 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity.DashboardActivity"
-    android:background="@drawable/backdrop">
+    android:background="@drawable/backgr">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/tint"
+        android:padding="10dp"/>
 
 
 
